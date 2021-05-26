@@ -1,0 +1,193 @@
+/*header section start---------------------------------*/
+header{
+	padding: 50px 0;
+}
+header span{
+
+	display: block;
+	border-bottom: 10px solid #8080806b;
+}
+nav ul li{
+	margin-right: 30px !important;
+}
+
+.nav-link{
+	color: black;
+	
+	
+}
+.nav-link:hover{
+	cursor: pointer!important;
+	transform: scale(1.5) !important;
+	color: black!important;
+}
+
+
+.nav-sta{
+	color: black;
+	font-size: 30px;
+}
+/*banner section start------------------------------*/
+.banner{
+	padding: 50px 0;
+	background: #F04838;
+}
+
+.banner-one{
+	color: white;
+}
+.banner-one h2{
+	
+}
+.banner-one img{
+	
+}
+.banner-one p{
+	line-height: 30px;
+}
+.banner-two{
+	margin-bottom: 50px;
+}
+.banner-two img{
+	
+}
+
+
+.cont-one{
+	color: white;
+}
+.cont-one label{
+	
+}
+.cont-one input{
+	width: 80%;
+	background: #FF6153;
+	padding: 10px;
+	border: none;
+	margin-bottom: 30px;
+	border-radius: 5px;
+}
+
+
+.cont-two{
+	color: white;
+}
+.cont-two label{
+	
+}
+.cont-two input{
+	width: 80%;
+	background: #FF6153;
+	padding: 10px;
+	border: none;
+	margin-bottom: 30px;
+	border-radius: 5px;
+}
+
+
+
+
+.cont-three{
+
+}
+.cont-three button{
+	background: transparent;
+	border: none;
+	color: white;
+	font-size: 30px;
+	margin-top: 70px;
+}
+
+.cont-three button:hover{
+	cursor: pointer;
+	transform: scale(1.5);
+}
+
+
+/*footer section start----------------------------------------*/
+footer{
+	padding: 20px 0;
+	background: #F23E2C;
+}
+footer p{
+color: white;	
+}
+
+/*Media query---------------------------------------------*/
+/*mobile device-------------------------------------------*/
+@media (min-width: 320px) and (max-width: 500px){
+	.new{
+		flex-direction: column;
+	}
+	.nav-sta{
+		font-size: 1px;
+		opacity: 0px;
+	}
+	button.navbar-toggler {
+    margin-right: 13%;
+	}
+	.banner-one h2{
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	.banner-two img{
+		display: block;
+		margin: 0 auto;
+	}
+	label{
+		margin-left: 45px;
+	}
+	input{
+		display: block;
+		margin: 0 auto;
+
+	}
+	.cont-three button {
+   
+    margin: 10px auto;
+    display: block;
+	}
+	.cont-one input {
+    
+    margin-bottom: 0px;
+    
+	}
+	.cont-two input {
+   
+    margin-bottom: 10px;
+   
+	}
+
+
+
+	footer p{
+	text-align: center;	
+	}
+}
+/*Small device------------------------*/
+@media (min-width: 501px) and (max-width: 768px){
+	.banner h2{
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	.new{
+		flex-direction: column;
+	}
+	.nav-sta{
+		font-size: 1px;
+		opacity: 0px;
+	}
+	button.navbar-toggler {
+    margin-right:52px;
+	}
+	.cont-three button {
+    
+    display: block;
+    
+    margin: 10px auto;
+	}
+	footer p{
+		text-align: center;
+	}
+
+}
